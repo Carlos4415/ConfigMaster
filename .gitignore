@@ -1,0 +1,56 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+.vs/
+.vscode/
+.idea/
+
+# Ignore files for Visual Studio for Mac
+.vscode/
+
+# Ignore package files
+/packages/
+*.nupkg
+
+# Ignore user-specific files for Rider
+.idea/
+
+# Ignore ASP.NET temporary files
+wwwroot/
+public/
+
+# Ignore logs and crash dumps
+*.log
+*.dmp
+
+# Ignore compiled assemblies
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.app
+
+# Ignore system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore npm dependencies (if you are using Node.js with your project)
+node_modules/
+
+# Ignore configuration files for CI/CD
+*.yml
+*.yaml
+*.json
+
+# Ignore JetBrains Rider files
+.idea/
+
+# Ignore NUnit test result files
+TestResult.xml
+
+# Ignore ASP.NET files generated for development
+appsettings.json
+appsettings.Development.json
